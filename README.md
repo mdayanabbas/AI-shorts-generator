@@ -131,6 +131,27 @@ Before you begin, ensure you have the following installed:
 
 ---
 
+---
+
+### 🐳 Running with Docker
+
+The easiest way to get the application running is with Docker. This method bundles the application and all its dependencies, including FFmpeg, into a single container.
+
+1.  **Build the Docker Image**
+    Make sure the Docker daemon is running, then build the image from the project's root directory:
+    ```sh
+    docker build -t ai-video-generator .
+    ```
+
+2.  **Run the Docker Container**
+    Use the `docker run` command to start the application. This command maps port 5000, removes the container after use (`--rm`), and passes your API keys from your local `.env` file to the container.
+    ```sh
+    docker run --rm -p 5000:5000 --env-file .env ai-video-generator
+    ```
+
+3.  **Access the Application**
+    Once the container is running, open your web browser and navigate to `http://127.0.0.1:5000`.
+
 ## 💡 Usage
 
 Once the application is running, simply:

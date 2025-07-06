@@ -11,7 +11,7 @@ An end-to-end AI pipeline that automatically generates short-form videos from a 
 
 <br>
 
-https://github.com/YOUR_USERNAME/YOUR_REPO/assets/YOUR_USER_ID/d1a9e3b1-b9a6-4f4c-8b5e-0c1f2a3b4d5e
+https://github.com/mdayanabbas/AI-shorts-generator
 
 _Note: You should record a short screen capture of your app working, upload it to the issue section of your GitHub repo to get a URL, and replace the link above._
 
@@ -95,7 +95,7 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the Repository**
     ```sh
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO.git](https://github.com/YOUR_USERNAME/YOUR_REPO.git)
+    git clone https://github.com/mdayanabbas/AI-shorts-generator
     cd YOUR_REPO
     ```
 
